@@ -5,12 +5,14 @@ import "../styles/style.css";
 
 const HomePage = () => {
   return (
-    <div className="container">
+    <>
       <h2>İMAGES</h2>
-      {data.map(({ photographer, src: { large } }) => (
-        <Picture photo={photographer} large={large} />
-      ))}
-    </div>
+      <div className="container">
+        {data.map(({ photographer, src: { large } }) => (
+          <Picture photo={photographer} large={large} />
+        ))}
+      </div>
+    </>
   );
 };
 

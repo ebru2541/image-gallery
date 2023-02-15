@@ -3,7 +3,9 @@ import React from "react";
 const Picture = ({ photo, large }) => {
   return (
     <div className="card">
-      <img src={large} alt="" />
+      <div className="card-img">
+        <img src={large} alt="" />
+      </div>
       <p>{photo}</p>
     </div>
   );
