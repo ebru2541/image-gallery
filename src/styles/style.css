@@ -3,11 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 
+}
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
+  
 }
 
 h2 {
@@ -31,11 +36,10 @@ p {
 
 .card {
   padding: 1rem;
-  width: 280px;
+  max-width: 280px;
   height: 310px;
   box-shadow: 2px 2px 14px black;
-  margin: auto;
-  margin-bottom: 1.8rem;
+  margin: 1rem auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,4 +57,22 @@ p {
 .card-img:hover img {
   width: 260px;
   height: 280px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    margin: 1rem;
+  }
 }
