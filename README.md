@@ -2,7 +2,6 @@
 ## Project Skeleton
 |
 |----readme.md        
-SOLUTION
 ├── public
 │     └── index.html
 ├── src
