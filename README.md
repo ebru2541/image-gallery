@@ -1,5 +1,7 @@
 
 ## Project Skeleton
+
+```
 |
 |----readme.md        
 ├── public
@@ -18,8 +20,10 @@
 └── package.json
 
 
+```
 ## Project Skills
 
+```
 - HTML
 
 - CSS
@@ -28,4 +32,7 @@
 
 - ReactJS
 
-https://image-gallery-react-r.netlify.app/
+```
+![gallery](https://github.com/ebru2541/image-gallery/blob/master/src/image-gallery.gif)
+
+#https://image-gallery-react-r.netlify.app/
